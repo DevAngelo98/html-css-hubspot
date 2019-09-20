@@ -165,6 +165,34 @@ a[href="#ch"] {
  background-size: cover;
 }
 
+#text-of-background{
+ width: 51%;
+ position: relative;
+ margin-top: 85px;
+ display: inline-block;
+ margin-left: 65px;
+}
+
+#text-of-background h1 {
+ color: rgb(51, 71, 91);
+ font-size: 40px;
+}
+
+#text-of-background p {
+ color: rgb(51, 71, 91);
+ margin-top: 30px;
+ margin-bottom:50px;
+}
+
+a[href="#get"] {
+ padding: 26px 48px;
+ background-color: #ff7a59;
+ border-radius: 6px;
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+}
+
 .container{
  width: 100%;
 }
