@@ -200,7 +200,55 @@ a[href="#get"] {
 .grey-section{
  background-color: #F4F8FA;
  width: 100%;
- height: 1000px;
+ height: 1300px;
+}
+
+#cube {
+ padding-bottom: 100px;
+ width: 100%;
+ position: relative;
+ top: 40px;
+ text-align: center;
+}
+
+#cube > img {
+ width: 260px;
+}
+
+#cube h2 {
+ font-size: 35px;
+ color: rgb(51, 71, 91);
+ margin-bottom: 20px;
+}
+
+#cube p {
+ color: #33475B;
+}
+
+#white-block {
+ background-color: white;
+ width: 85%;
+ margin: 0 auto;
+ height: 50%;
+}
+
+#first-block{
+ height: 35%;
+ width: 100%;
+ margin-bottom: 2%;
+ background-color: blue;
+}
+
+.float-block {
+ float: left;
+ height: 60%;
+ width: 30%;
+ background-color: red;
+}
+
+.center{
+ margin-left: 5%;
+ margin-right: 5%;
 }
 
 .light-blue{
