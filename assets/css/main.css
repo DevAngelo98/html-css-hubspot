@@ -27,11 +27,11 @@
  display: inline-block;
 }
 
-.ul-rstyle ul {
+.ul-restyle ul {
  display: inline-block;
 }
 
-.ul-rstyle ul li {
+.ul-restyle ul li {
  list-style-type: none;
  float: left;
 }
@@ -200,7 +200,7 @@ a[href="#get"] {
 .grey-section{
  background-color: #F4F8FA;
  width: 100%;
- height: 1300px;
+ padding-bottom: 110px;
 }
 
 #cube {
@@ -226,44 +226,254 @@ a[href="#get"] {
 }
 
 #white-block {
- background-color: white;
  width: 85%;
  margin: 0 auto;
- height: 50%;
 }
 
-#first-block{
- height: 35%;
+#first-block {
  width: 100%;
  margin-bottom: 2%;
- background-color: blue;
+ background-color: white;
+ padding-bottom: 20px;
+}
+
+#learn-more-image {
+ width: 22%;
+ float: left;
+ margin-left: 12%;
+ margin-top: 3%;
+ margin-right: 6%;
+ text-align: center;
+}
+
+#learn-more-image > img {
+ width: 206px;
+}
+
+.oran-text{
+ background-color: #ff7a59;
+ display: inline-block;
+ padding: 12px 24px;
+ border-radius: 8px;
+ color: white;
+ font-weight: 600;
+}
+
+.oran-text:hover {
+ cursor: pointer;
+}
+
+#free-hub {
+ float: left;
+ width: 55%;
+ margin-top: 3%;
+}
+
+#free-hub h4 {
+ font-size: 22px;
+ color:rgb(51, 71, 91);
+ margin-bottom: 11px;
+}
+
+#free-hub p:nth-of-type(1) {
+ color:rgb(51, 71, 91);
+ font-size: 14px;
+}
+
+#free-hub p:nth-of-type(2) {
+ color:rgb(51, 71, 91);
+ font-size: 13px;
+ margin-top: 26px;
+ margin-bottom: 15px;
+ font-weight: bold;
+}
+
+.check li > img{
+ width: 18px;
+ top: 4px;
+ position: relative;
+ margin-right: 4px;
+}
+
+#free-hub ul li {
+ margin-right: 10px;
+ color: rgb(51, 71, 91);
 }
 
 .float-block {
  float: left;
- height: 60%;
  width: 30%;
- background-color: red;
+ background-color: white;
+ padding-bottom: 35px;
 }
 
-.center{
+.img-text-hubspot {
+ width: 80%;
+ margin: auto;
+ text-align: center;
+ border-bottom: 2px solid grey;
+ margin-top: 32px;
+}
+
+.img-text-hubspot h4 {
+ font-size: 25px;
+ color:rgb(51, 71, 91);
+}
+
+.img-text-hubspot p {
+ color:rgb(51, 71, 91);
+ font-size: 14px;
+ font-weight: 400px;
+ line-height: 23px;
+ text-align: left;
+ margin-top: 14px;
+ margin-bottom: 14px;
+}
+
+#logo-text-marketing > img {
+ width: 150px;
+}
+
+.text-with-ul {
+ padding-top: 26px;
+ width: 80%;
+ margin: auto;
+ text-align: center;
+}
+
+.text-with-ul p:first-child {
+ color:rgb(51, 71, 91);
+ font-size: 14px;
+ font-weight: 600;
+ text-align: center;
+ margin-bottom: 26px;
+}
+
+.vertical li {
+ list-style-type: none;
+ margin-bottom: 8px;
+ text-align: left;
+}
+
+.vertical {
+ margin-bottom: 25px;
+}
+
+#logo-text-sales > img {
+ width: 178px;
+}
+
+#logo-text-service >img {
+ width: 130px;
+}
+
+.center {
  margin-left: 5%;
  margin-right: 5%;
 }
 
-.light-blue{
+.light-blue {
  background-color: #00B9A8;
  width: 100%;
  height: 425px;
 }
 
-.last-section-container{
+#text-light-blue {
+ width: 60%;
+ height: 25%;
+ margin: 0 auto;
+ position: relative;
+ top: 6%;
+ text-align: center;
+}
+
+#text-light-blue h3{
+ color: white;
+ font-size: 23px;
+}
+
+#text-light-blue p {
+ color: white;
+ position: relative;
+ top: 15%;
+}
+
+#table {
+ height: 62%;
+ width: 80%;
+ background-color: yellow;
+ margin: 0 auto;
+ position: relative;
+ top: 9%;
+}
+
+#top {
+ height: 50%;
+ border-bottom: 2px solid white;
+}
+
+.border-right {
+ background-color: red;
+ width: 25%;
+ height: 100%;
+ border-right: 1px solid white;
+ float: left;
+}
+
+.fourth-cell {
+ border-right: 0;
+}
+
+#buttom {
+ height: 50%;
+}
+
+.last-section-container {
  background-color: #FFFFFF;
  width: 100%;
  height: 600px;
 }
 
-footer{
+.customer-numbers {
+ width: 25%;
+ height: 20%;
+ float: left;
+ margin-left: 10%;
+ margin-top: 5%;
+ color: rgb(51, 71, 91);
+ background: black;
+}
+
+
+.text h2 {
+ font-size: 35px;
+}
+
+.text p {
+ position: relative;
+ top: 12px;
+ line-height: 24px;
+}
+
+.shopify {
+ float: right;
+ width: 35%;
+ height: 20%;
+ background-color: blue;
+ margin-top: 10%;
+ margin-right: 11%;
+}
+
+.start-growing{
+ width: 50%;
+ height: 40%;
+ background-color: red;
+ float: left;
+ margin-top: 7%;
+ margin-left: 10%;
+}
+
+footer {
  background-color: #33475B;
  width: 100%;
  height: 425px;
